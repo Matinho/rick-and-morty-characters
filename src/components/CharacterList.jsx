@@ -40,7 +40,7 @@ function CharacterList() {
           </div>
         )}
 
-        <NavPage page={page} setPage={setPage} />
+        <NavPage page={page} setPage={setPage} pages={pages}/>
       </div>
     );
 }
